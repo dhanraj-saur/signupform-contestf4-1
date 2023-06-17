@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px
+}
+
+.container .link{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+
+}
+
+.sign-up{
+    margin-top: 60px;
+    margin-left: 140px    
+}
+
+.form{
+    margin-top: 35px;
+    margin-left: 140px;
+}
+
+.form label{
+    font-size: 20px;
+}
+
+.form input{
+    margin-top: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 50%;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 45px;
+    margin-left: 140px;
+}
+
+.btn button{
+    width: 120px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    height: 35px;
+}
+
+.heading{
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.error{
+    margin-top: 20px;
+    color: red;
+    margin-left: 136px;
+}
+
+.success{
+    margin-top: 20px;
+    color:yellowgreen;
+    margin-left: 136px;
+
+}
